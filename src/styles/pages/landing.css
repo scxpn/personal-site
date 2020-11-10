@@ -1,12 +1,3 @@
-#landing-page .menu-item{
-    color: #FFF;
-    font-size: 1rem;
-
-    padding: 10px;
-    margin: 5px;
-
-    text-decoration: none;
-}
 
 #landing-page .primary-area{
     display: flex;
@@ -52,6 +43,7 @@
 #landing-page .landing-content .link{
     text-decoration: none;
     color: #FFF;
+    
 }
 
 #landing-page .landing-content .container{
@@ -88,4 +80,47 @@
     align-self: center;
 
     margin: auto;
+}
+
+@media (max-width: 760px) {
+    
+    #landing-page .primary-area{
+        padding: 10px;
+    }
+
+    #landing-page .primary-area .profile-photo img{
+     width: 9.5rem;
+     height: 9.5rem;
+    }
+    
+    #landing-page .primary-area .landing-text{
+        font-size: 1rem;
+        padding: 0 50px;
+        margin: 0;
+    }
+
+    #landing-page .primary-area .landing-text h1{
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    #landing-page .landing-content{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    #landing-page .landing-content .container{
+        min-width: 16rem;
+        max-width: 16rem;
+        min-height: 6rem;
+        max-height: 6rem;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    #landing-page .landing-content .container h2{
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
 }
