@@ -16,10 +16,6 @@ function Landing() {
 
     return (
         <div id="landing-page">
- 
-            <div className="menu">
-                <Link to="/cv" className="menu-item">Currículo</Link>
-            </div>
 
             <div className="primary-area">
                 <div className='profile-photo'>
