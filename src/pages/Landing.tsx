@@ -28,7 +28,7 @@ function Landing() {
                 <div className="landing-text">
                     <h1>SCXPN</h1>
 
-                    <p>The more beautiful world is make with codes.</p>
+                    <p>The more beautiful world is make with code.</p>
                 </div>
             </div>
 
