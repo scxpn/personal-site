@@ -7,10 +7,10 @@ import { AiFillLinkedin, AiOutlineInstagram } from 'react-icons/ai';
 import { HiOutlineMailOpen } from 'react-icons/hi';
 
 
-import '../styles/pages/landing.css';
+import './index.css';
 
 
-function Landing() {
+function Contact() {
     const email = 'ubirajara2018@hotmail.com';
     const content = 'Hi SCXPN, I saw your website and I would like to know more about your work.'
 
@@ -67,4 +67,4 @@ function Landing() {
     );
 }
 
-export default Landing;
+export default Contact;
