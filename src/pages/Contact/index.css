@@ -1,38 +1,4 @@
 
-#landing-page .primary-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 25px;
-    flex-direction: column;
-}
-
-#landing-page .primary-area .profile-photo img{
-    width: 14rem;
-    height: 14rem;
-    margin-bottom: 1rem;
-
-    border-radius: 100%;
-
-    transition: all 0.2s;
-}
-
-#landing-page .primary-area .profile-photo img:hover{
-    border: solid 2px var(--color-secondary);
-}
-
-#landing-page .primary-area .landing-text{
-    text-align: center;
-}
-
-#landing-page .primary-area .landing-text h1{
-    font-size: 2rem;
-    font-weight: 500;
-    margin: 10px 0;
-}
-
-
 #landing-page .landing-content{
     display: flex;
     justify-content: space-between;

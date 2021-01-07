@@ -1,11 +1,14 @@
 import React from 'react';
 
-import './styles.css'
+import Header from '../../components/Header'
+
+import './index.css';
+
 
 function Home() {
   return (
-    <div className="home-page">
-      
+    <div id="home-page">
+      <Header />
     </div>
   );
 };
