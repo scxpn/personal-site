@@ -16,9 +16,7 @@
 #landing-page .landing-content .container{
     text-decoration: none;
 
-    min-width: 15rem;
-    max-width: 15rem;
-    min-height: 10rem;
+    width: 14rem;
     max-height: 10rem;
     padding: 10px;
 
@@ -70,4 +68,23 @@
         margin-bottom: 10px;
     }
 
+}
+@media (min-width: 1020px) {
+    #landing-page .landing-content{
+        margin-top: 2rem;
+    
+        padding: 20px 40px;
+    }
+    
+    #landing-page .landing-content .container{
+        text-decoration: none;
+    
+        width: 25rem;
+        height: 12rem;
+        padding: 14px;
+    }
+
+    #landing-page .landing-content .container h2{
+        font-size: 2.1rem;
+    }
 }

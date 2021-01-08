@@ -66,3 +66,22 @@
         height: 2.5rem;
     }
 }
+
+@media (min-width: 2560px){
+    #header .primary-area .profile-photo img{
+        width: 18rem;
+        height: 18rem;
+        margin-bottom: 0rem;
+    }
+    #header .primary-area .landing-text h1{
+        font-size: 2.5rem;
+    }
+    #header .primary-area .landing-text p{
+        font-size: 1.5rem;
+    }
+
+    #header .primary-area .three-bars{
+        width: 3rem;
+        height: 3rem;
+    }
+}
