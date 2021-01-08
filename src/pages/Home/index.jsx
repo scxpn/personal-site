@@ -28,32 +28,24 @@ function Home() {
             <Header />
 
             <div className="landing-content">
-                <a href="https://github.com/scxpn" target='_blank' rel='noreferrer' className='link'>
-                    <div className="container">
-                        <h2>GitHub</h2>
-                        < FiGithub size={80} className="logo"/>
-                    </div>
+                <a href="https://github.com/scxpn" target='_blank' rel='noreferrer'  className='container'>
+                    <h2>GitHub</h2>
+                    < FiGithub size={80} color="white" className="logo"/>
                 </a>
 
-                <a href="https://www.linkedin.com/in/scxpn/" target='_blank' rel='noreferrer' className='link'>
-                    <div className="container">
+                <a href="https://www.linkedin.com/in/scxpn/" target='_blank' rel='noreferrer' className='container'>
                         <h2>Linkedin</h2>
-                        <AiFillLinkedin size={80} className="logo"/>
-                    </div>
+                        <AiFillLinkedin size={80} color="white" className="logo"/>
                 </a>
 
-                <a href="https://www.instagram.com/scxpn.py/" target='_blank' rel='noreferrer' className='link'>
-                    <div className="container">
-                        <h2>Instagram</h2>
-                        <AiOutlineInstagram size={80} className="logo"/>
-                    </div>
+                <a href="https://www.instagram.com/scxpn.py/" target='_blank' rel='noreferrer' className='container'>
+                    <h2>Instagram</h2>
+                    <AiOutlineInstagram size={80} color="white" className="logo"/>
                 </a>
 
-                <a href={`mailto:${email}?subject=${content}`} target='_blank' rel='noreferrer' className='link'>
-                    <div className="container">
-                        <h2>E-mail</h2>
-                        <HiOutlineMailOpen size={80} className="logo"/>
-                    </div>
+                <a href={`mailto:${email}?subject=${content}`} target='_blank' rel='noreferrer' className='container'>
+                    <h2>E-mail</h2>
+                    <HiOutlineMailOpen size={80} color="white" className="logo"/>
                 </a>
             </div>
 
