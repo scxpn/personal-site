@@ -1,10 +1,14 @@
+#header .primary-area{
+    padding: 10px;
+}
+
 #header .primary-area .profile-photo{
     display: flex;
     justify-content: center;
 }
 #header .primary-area .profile-photo img{
-    width: 10rem;
-    height: 10rem;
+    width: 10.5rem;
+    height: 10.5rem;
     margin-bottom: 1rem;
 
     border-radius: 100%;
@@ -18,10 +22,47 @@
 
 #header .primary-area .landing-text{
     text-align: center;
+    font-size: 1rem;
+    padding: 0 50px;
+    margin: 0;
 }
 
 #header .primary-area .landing-text h1{
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 500;
     margin: 10px 0;
+}
+
+@media(min-width: 768px){
+    #header .primary-area .profile-photo img{
+        width: 11rem;
+        height: 11rem;
+        margin-bottom: 0rem;
+    }
+    #header .primary-area .landing-text h1{
+        font-size: 1.55rem;
+    }
+
+    #header .primary-area .three-bars{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+@media(min-width: 1024px){
+    #header .primary-area .profile-photo img{
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 0rem;
+    }
+    #header .primary-area .landing-text h1{
+        font-size: 1.9rem;
+    }
+    #header .primary-area .landing-text p{
+        font-size: 1.3rem;
+    }
+
+    #header .primary-area .three-bars{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 }

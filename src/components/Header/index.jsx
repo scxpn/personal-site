@@ -9,7 +9,7 @@ function Header() {
   return (
     <div id="header">
       <div className="primary-area">
-        <GoThreeBars size={30} />
+        <GoThreeBars size={30} className="three-bars" />
 
         <div className='profile-photo'>
           <Link to="/" className="landing-main-text">
