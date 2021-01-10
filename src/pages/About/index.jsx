@@ -3,12 +3,12 @@ import React from 'react';
 import './index.css';
 import NotExist from '../../components/NotExist';
 
-function Portifolio() {
+function About() {
   return (
-    <div id="portfolio-page">
+    <div id="about-page">
       <NotExist />
     </div>
   );
 };
 
-export default Portifolio;
+export default About;

@@ -49,10 +49,6 @@
         font-size: 1.55rem;
     }
 
-    #header .primary-area .three-bars{
-        width: 2.5rem;
-        height: 2.5rem;
-    }
 }
 @media(min-width: 1024px){
     #header .primary-area .main-header .profile-photo img{
@@ -66,17 +62,12 @@
     #header .primary-area .landing-text p{
         font-size: 1.3rem;
     }
-
-    #header .primary-area .three-bars{
-        width: 2.5rem;
-        height: 2.5rem;
-    }
 }
 
 @media (min-width: 2560px){
     #header .primary-area .main-header .profile-photo img{
-        width: 18rem;
-        height: 18rem;
+        width: 15rem;
+        height: 15rem;
         margin-bottom: 0rem;
     }
     #header .primary-area .landing-text h1{
@@ -86,8 +77,4 @@
         font-size: 1.5rem;
     }
 
-    #header .primary-area .three-bars{
-        width: 3rem;
-        height: 3rem;
-    }
 }

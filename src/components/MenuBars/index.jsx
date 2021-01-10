@@ -1,6 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { GoThreeBars } from 'react-icons/go';
-import { AiOutlineArrowLeft } from 'react-icons/ai';
+import { AiOutlineClose } from 'react-icons/ai';
+//  import { MdKeyboardBackspace } from 'react-icons/md';
 
 import './index.css';
 
@@ -28,7 +31,16 @@ class MenuBars extends React.Component {
       <div className={`navbar-burger-${menu}`}>
         <div className="itens-menu">
           
-            <AiOutlineArrowLeft className="arrow-button" size={25} color={arrowButton} onClick={this.toggleMenu} />
+            <AiOutlineClose className="close-button" size={25} color={arrowButton} onClick={this.toggleMenu} />
+
+            <Link to="/" className="item">Home</Link>
+            <Link to="/about" className="item">About</Link>
+            <Link to="/portfolio" className="item">Portfolio</Link>
+
+            {/* <Link to="/">
+              <MdKeyboardBackspace className="back-button" size={28} color="white"></MdKeyboardBackspace>
+            </Link> */}
+            
          
         </div>
       </div>

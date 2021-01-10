@@ -1,0 +1,24 @@
+#not-exist .back-button{
+    margin: 1rem 1rem 0;
+}
+
+#not-exist .not-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    #not-exist .not-page{
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 1024px){
+    #not-exist .not-page{
+        font-size: 1.4rem;
+    }
+}
