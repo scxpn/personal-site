@@ -1,27 +1,60 @@
 #navbar .navbar-brand .bars-button,
-#navbar .navbar-brand .navbar-burger- .itens-menu .arrow-button{
+#navbar .navbar-brand .navbar-burger- .itens-menu .close-button{
     position: absolute;
     transition: all 0.5s;
     cursor: pointer;
 }
 
-#navbar .navbar-brand .navbar-burger-active .itens-menu .arrow-button{
-    cursor: pointer;
+#navbar .navbar-brand .navbar-burger-active .itens-menu .close-button{
+    margin-bottom: 3rem;
+    margin: 10px 0 0 10px;
 }
 
-/* #navbar .navbar-brand .navbar-burger- */
+#navbar .navbar-brand .navbar-burger- .itens-menu{
+    display: none;
+}
+
+#navbar .navbar-brand .navbar-burger-active .itens-menu{
+    display: grid;
+}
+
+#navbar .navbar-brand .navbar-burger-active .itens-menu .item{
+    text-decoration: none;
+
+    margin: 0;
+    padding: 1.2rem 0.6rem;
+
+    color: var(--color-secondary);
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#navbar .navbar-brand .navbar-burger-active .itens-menu .item:hover{
+    border: 1px solid var(--color-secondary);
+}
+
+#navbar .navbar-brand .navbar-burger-active .itens-menu .close-button{
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+#navbar .navbar-brand .navbar-burger-active .itens-menu .back-button{
+    position: absolute;
+    bottom: 2rem;
+    margin: 0 0 10px 10px;
+}
+
 #navbar .navbar-brand .navbar-burger-active{
     
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 
     background-color: #00000091;
     width: 50%;
-    height: 100%;
+    min-height: 100vh;
 
     margin: 0;
-    padding: 10px;
+    padding: 0;
 
     transition: all 0.4s;
 }
@@ -31,17 +64,45 @@
 }
 
 @media(min-width: 768px){
+    #navbar .navbar-brand .bars-button{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+        #navbar .navbar-brand .navbar-burger-active .itens-menu .close-button{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
     #navbar .navbar-brand .navbar-burger-active{
         width: 32%
     }
 }
 
 @media(min-width: 1024px){
+    #navbar .navbar-brand .bars-button{
+        width: 2rem;
+        height: 2rem;
+    }
+    #navbar .navbar-brand .navbar-burger-active .itens-menu .close-button{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
     #navbar .navbar-brand .navbar-burger-active{
         width: 15.5%
     }
 }
 
 @media (min-width: 2560px){
-    
+    #navbar .navbar-brand .bars-button{
+    width: 3rem;
+    height: 3rem;
+}
+
+    #navbar .navbar-brand .navbar-burger-active .itens-menu .close-button{
+    width: 3rem;
+    height: 3rem;
+}
+
+    #navbar .navbar-brand .navbar-burger-active{
+        width: 14.6%
+    }
 }
