@@ -5,7 +5,7 @@ import { AiFillLinkedin, AiOutlineInstagram } from 'react-icons/ai';
 import { HiOutlineMailOpen } from 'react-icons/hi';
 // import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 
-import Header from '../../components/Header'
+import Header from '../../components/Header';
 
 import './index.css';
 
